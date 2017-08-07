@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HearthLogic</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="grid.css" rel="stylesheet" type="text/css" />
+  <!-- Normalize.css, a cross-browser reset file -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  </head>
+  <body>
+    
+    <section role="region" class="quiz-container">
+      <div class="paper-box">
+        <div class="js-start-page">
+          <header role="banner">
+            <h1>Learning HearthStone Mehcanics</h1>
+          </header>
+          <main role="main">
+            <h2>Take a quiz that will help you learn some of HearthStone's quirky logic</h2>
+          <button type="submit" class="js-start-button">Start</button>
+          </main>
+        </div>
+        <div class="js-quiz-questions-page">
+          <div id="question"></div>
+         <form id="answer-box">
+          <div class="answers-wrapper">
+            <div class="submit-wrapper">
+            <button id='submit-answer' type="submit" >Submit answer</button>
+            </div>
+          </div>
+        </form>
+        <div id="next-question">
+          <p class="onward">On to the next question!</p>
+          <button role="button" id="next-button">Next</button>
+          </div>
+        </div>
+        <div id="js-quiz-results">
+          </div>
+      </div>
+        <div class="js-question-feedback col-12">
+            </div>
+    </section>
+      
+       <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+  </body>
+</html>
+
+

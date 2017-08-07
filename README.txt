@@ -1,0 +1,2 @@
+8/6/2017
+I’ve run aXe on the page I built and there’s no errors appearing. Either I’ve got no violations OR there are some but I’ve got no clue on how to get them to show. I’ve troubleshot the issue and didn’t find anything that pointed to actually having errors so my suspicion is that the page is fine. I’ve tried roaming the page using the accessibility tools on Mac and was able to complete the quiz without issue.
